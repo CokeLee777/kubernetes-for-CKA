@@ -4,3 +4,4 @@ about Kubernetes deep dive and Kubernetes practice
 - [Overview](./docs/overview.md)
 - [Pods](./docs/pods.md)
 - [YAML](./docs/yml.md)
+- [Replication Controller & Replica Set](./docs/replica_sets.md)
