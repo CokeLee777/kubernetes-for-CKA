@@ -28,6 +28,12 @@ Pod는 애플리케이션의 단일 인스턴스이다. 쿠버네티스에서 �
 kubectl run nginx --image nginx
 ```
 
+- 기존의 Pod을 삭제하는 명령어
+
+```shell
+kubectl delete pod <Pod 이름>
+```
+
 - Pod 목록 조회 명령어
 
 ```shell
@@ -38,4 +44,10 @@ kubectl get pods
 
 ```shell
 kubectl get pods -o wide
+```
+
+- 특정 Pod 상세정보 조회 명령어
+
+```shell
+kubectl describe pods <Pod 이름>
 ```
