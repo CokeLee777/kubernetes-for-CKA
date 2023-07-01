@@ -3,3 +3,4 @@ about Kubernetes deep dive and Kubernetes practice
 
 - [Overview](./docs/overview.md)
 - [Pods](./docs/pods.md)
+- [YAML](./docs/yml.md)
