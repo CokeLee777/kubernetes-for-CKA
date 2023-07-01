@@ -68,3 +68,9 @@ kubectl create -f pod-definition.yml
 ```shell
 kubectl delete -f pod-definition.yml
 ```
+
+**yml 파일 기반으로 업데이트**
+
+```shell
+kubectl replace -f pod-definition.yml
+```
