@@ -90,6 +90,18 @@ kubectl get replicationcontroller
 kubectl get replicaset
 ```
 
+**복제 세트 상세정보 조회 명령어**
+
+```shell
+kubectl describe replicaset <Replica Set 이름>
+```
+
+**실행중인 복제 세트 yml 파일 수정 명령어**
+
+```shell
+kubectl edit replicaset <Replica Set 이름>
+```
+
 ## Replica Set - Labels and Selectors
 
 그렇다면 왜 Replica Set에 Label과 Selector를 붙일까?
