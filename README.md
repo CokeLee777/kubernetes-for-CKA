@@ -7,3 +7,4 @@ about Kubernetes deep dive and Kubernetes practice
 - [Replication Controller & Replica Set](./docs/replica_sets.md)
 - [Deployment](./docs/deployment.md)
 - [Networking](./docs/networking.md)
+- [Services](./docs/services.md)
