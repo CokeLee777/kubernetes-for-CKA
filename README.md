@@ -1,6 +1,8 @@
 # kubernetes-for-CKA
 about Kubernetes deep dive and Kubernetes practice
 
+## Basic
+
 - [Overview](./docs/overview.md)
 - [Pods](./docs/pods.md)
 - [YAML](./docs/yml.md)
@@ -8,3 +10,8 @@ about Kubernetes deep dive and Kubernetes practice
 - [Deployment](./docs/deployment.md)
 - [Networking](./docs/networking.md)
 - [Services](./docs/services.md)
+
+# Intermediate
+
+- [ETCD](./docs/etcd.md)
+- [API Server](./docs/api_server.md)
