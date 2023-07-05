@@ -121,3 +121,9 @@ Replica Set의 역할은 Pod들을 모니터링하는 것이다. 하나라도 �
 ```shell
 kubectl scale --replicas=<업데이트할 복제본의 개수> -f <파일명>
 ```
+
+**파일 없이 스케일 업, 다운 하는 명령어**
+
+```shell
+kubectl scale --replicas=<업데이트할 복제본의 개수> replicaset/<ReplicaSet 이름>
+```
