@@ -15,3 +15,6 @@ about Kubernetes deep dive and Kubernetes practice
 
 - [ETCD](./docs/etcd.md)
 - [API Server](./docs/api_server.md)
+- [Controller Manager](./docs/controller_manager.md)
+- [Scheduler](./docs/scheduler.md)
+- [Proxy](./docs/proxy.md)
