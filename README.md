@@ -18,3 +18,7 @@ about Kubernetes deep dive and Kubernetes practice
 - [Controller Manager](./docs/controller_manager.md)
 - [Scheduler](./docs/scheduler.md)
 - [Proxy](./docs/proxy.md)
+
+# ETC
+
+- [Command](./docs/command.md)
