@@ -11,13 +11,19 @@ about Kubernetes deep dive and Kubernetes practice
 - [Networking](./docs/networking.md)
 - [Services](./docs/services.md)
 
-# Intermediate
+# Core Concepts
 
 - [ETCD](./docs/etcd.md)
 - [API Server](./docs/api_server.md)
 - [Controller Manager](./docs/controller_manager.md)
 - [Scheduler](./docs/scheduler.md)
 - [Proxy](./docs/proxy.md)
+
+# Scheduling
+
+- [Taint & Toleration](./docs/taint_toleration.md)
+- [Node Selector](./docs/node_selector.md)
+- [Node Affinity](./docs/node_affinity.md)
 
 # ETC
 
