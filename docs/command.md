@@ -23,3 +23,21 @@ kubectl create deployment <Deployment 이름> --image=<image 이름> --replicas=
 ```shell
 kubectl run <Pod 이름> --image=<image 이름> --port=<port> --expose=true
 ```
+
+**실제로 리소스를 제어하지 않으면서 제어 가능한지 확인**
+
+```shell
+kubectl run nginx --image=nginx --dry-run=client
+```
+
+**실제로 리소스를 제어하지 않으면서 제어 가능한지 확인하고 생성된 리소스의 yaml 정보 조회**
+
+```shell
+kubectl run nginx --image=nginx --dry-run=client -o yaml
+```
+
+**실제로 리소스를 제어하지 않으면서 제어 가능한지 확인하고 생성된 리소스의 yaml 파일 생성**
+
+```shell
+kubectl run nginx --image=nginx --dry-run=client -o yaml > example.yaml
+```
