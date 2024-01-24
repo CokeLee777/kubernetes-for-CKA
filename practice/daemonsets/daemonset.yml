@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: myapp-deployment
+  labels:
+    tier: frontend
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      app: myapp
+  updateStrategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      name: nginx-2
+      labels:
+        app: myapp
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
