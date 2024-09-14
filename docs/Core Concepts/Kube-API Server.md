@@ -14,6 +14,8 @@ kube-apiserver는 쿠버네티스의 주요 구성요소이다.
 
 [예시 2: Pod 생성]
 
+![](./images/kube-apiserver.png)
+
 1. Pod을 생성하는 명령어를 실행하면 kubectl utility가 kube-apiserver에 도달하게 된다.
 2. kube-apiserver가 먼저 사용자의 요청을 인증하고, 유효성을 확인한다.
 3. 그런 다음에 Pod을 생성해서 ETCD CLUSTER에 데이터를 업데이트하고 Pod이 생성되었다고 사용자에게 응답한다.
